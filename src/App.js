@@ -7,7 +7,7 @@ import {
   // Route,
   // Link
 } from "react-router-dom";
-import Navigate from './Navigate';
+import Navigate from './components/Navidate/Navigate';
 import { connect } from 'react-redux';
 
 

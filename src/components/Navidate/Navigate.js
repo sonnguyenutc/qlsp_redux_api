@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import ProductList from './components/ProductList/ProductList';
-import Home from './components/Home/Home';
+import ProductList from '../ProductList/ProductList';
+import Home from '../Home/Home';
 import {
     BrowserRouter as Router,
     Switch,
     Route,
     Link
 } from "react-router-dom";
-import AddProduct from './components/AddProduct/AddProduct';
-import EditProduct from './components/EditProduct/EditProduct';
+import AddProduct from '../AddProduct/AddProduct';
+import EditProduct from '../EditProduct/EditProduct';
 
 
 class Navigate extends Component {
